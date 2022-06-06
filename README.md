@@ -6,7 +6,7 @@
   
   For creating this app I used SwiftUI because iOS is the most popular right now so making native application is more interesting because it gives you more flexibilities and much more options to creat app.
   
-  Since this is my first project in SwifUI I have been faced with a lot of challenges as getting pictures from url (https://www.last.fm/api/show/geo.getTopArtists) because of unusual coding key in JSON file, but after all I figure out all that. Also the real challenge was cach respons from country API. I tried to use this package (CachyKit) 
+  Since this is my first project in SwifUI I have been faced with a lot of challenges as getting pictures from url (https://www.last.fm/api/show/geo.getTopArtists) because of unusual coding key in JSON file, but after all I figure out all that. Also the real challenge was cach respons from country API. I am using package (CachyKit) 
   
   For me this is just begining in SwifUI and I know that there is a lot of place for upgrade but I hope that you like it!
   
