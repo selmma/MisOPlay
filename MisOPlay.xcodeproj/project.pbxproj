@@ -1,0 +1,551 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5553E333284E3F6600FBABB7 /* Cachy in Frameworks */ = {isa = PBXBuildFile; productRef = 5553E332284E3F6600FBABB7 /* Cachy */; };
+		555F111628469CE700BDA021 /* ArtisDetailHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 555F111528469CE700BDA021 /* ArtisDetailHeaderView.swift */; };
+		555F11182846B88B00BDA021 /* GetDetailsButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 555F11172846B88B00BDA021 /* GetDetailsButtonView.swift */; };
+		555F111A28476CCF00BDA021 /* ArtistDetailsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 555F111928476CCF00BDA021 /* ArtistDetailsModel.swift */; };
+		555F1122284770CF00BDA021 /* ArtistsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 555F1121284770CF00BDA021 /* ArtistsModel.swift */; };
+		555F11272847788300BDA021 /* GetApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 555F11262847788300BDA021 /* GetApi.swift */; };
+		555F112B2847F43200BDA021 /* CountryModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 555F112A2847F43200BDA021 /* CountryModel.swift */; };
+		555F112D2847F5E800BDA021 /* CountiesData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 555F112C2847F5E800BDA021 /* CountiesData.swift */; };
+		555F112F2847F90C00BDA021 /* ArtistsData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 555F112E2847F90C00BDA021 /* ArtistsData.swift */; };
+		555F11322848089B00BDA021 /* ArtistDetailsData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 555F11312848089B00BDA021 /* ArtistDetailsData.swift */; };
+		55B5C45B2849FFC50055BE7F /* TagsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55B5C45A2849FFC50055BE7F /* TagsView.swift */; };
+		55B5C45D284CFA490055BE7F /* LinkView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55B5C45C284CFA490055BE7F /* LinkView.swift */; };
+		55B5C45F284D2D870055BE7F /* SimilarArtistsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55B5C45E284D2D870055BE7F /* SimilarArtistsView.swift */; };
+		55B5C461284D445A0055BE7F /* NoDataView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55B5C460284D44590055BE7F /* NoDataView.swift */; };
+		55D4C08F2844B54000E5C9A6 /* MisOPlayApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55D4C08E2844B54000E5C9A6 /* MisOPlayApp.swift */; };
+		55D4C0912844B54000E5C9A6 /* CountryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55D4C0902844B54000E5C9A6 /* CountryView.swift */; };
+		55D4C0932844B54200E5C9A6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 55D4C0922844B54200E5C9A6 /* Assets.xcassets */; };
+		55D4C0962844B54200E5C9A6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 55D4C0952844B54200E5C9A6 /* Preview Assets.xcassets */; };
+		55D4C0A028451A0800E5C9A6 /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55D4C09F28451A0800E5C9A6 /* OnboardingView.swift */; };
+		55D4C0A228451BF900E5C9A6 /* StartButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55D4C0A128451BF900E5C9A6 /* StartButtonView.swift */; };
+		55D4C0A42845372500E5C9A6 /* CountryRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55D4C0A32845372500E5C9A6 /* CountryRowView.swift */; };
+		55D4C0A628453FCB00E5C9A6 /* ArtistsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55D4C0A528453FCB00E5C9A6 /* ArtistsView.swift */; };
+		55D4C0A928453FF100E5C9A6 /* ArtistDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55D4C0A828453FF100E5C9A6 /* ArtistDetailsView.swift */; };
+		55D4C0AB28454BD100E5C9A6 /* ArtistCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55D4C0AA28454BD100E5C9A6 /* ArtistCardView.swift */; };
+		631A6B2262632DFF0FF1EC42 /* Pods_MisOPlay.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9AE942F03A4F7EC3A6777FF7 /* Pods_MisOPlay.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		030450806D431F5727404927 /* Pods-MisOPlay.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MisOPlay.release.xcconfig"; path = "Target Support Files/Pods-MisOPlay/Pods-MisOPlay.release.xcconfig"; sourceTree = "<group>"; };
+		555F111528469CE700BDA021 /* ArtisDetailHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtisDetailHeaderView.swift; sourceTree = "<group>"; };
+		555F11172846B88B00BDA021 /* GetDetailsButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetDetailsButtonView.swift; sourceTree = "<group>"; };
+		555F111928476CCF00BDA021 /* ArtistDetailsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtistDetailsModel.swift; sourceTree = "<group>"; };
+		555F1121284770CF00BDA021 /* ArtistsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtistsModel.swift; sourceTree = "<group>"; };
+		555F11262847788300BDA021 /* GetApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetApi.swift; sourceTree = "<group>"; };
+		555F112A2847F43200BDA021 /* CountryModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryModel.swift; sourceTree = "<group>"; };
+		555F112C2847F5E800BDA021 /* CountiesData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountiesData.swift; sourceTree = "<group>"; };
+		555F112E2847F90C00BDA021 /* ArtistsData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtistsData.swift; sourceTree = "<group>"; };
+		555F1130284805C500BDA021 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		555F11312848089B00BDA021 /* ArtistDetailsData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtistDetailsData.swift; sourceTree = "<group>"; };
+		55B5C45A2849FFC50055BE7F /* TagsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TagsView.swift; sourceTree = "<group>"; };
+		55B5C45C284CFA490055BE7F /* LinkView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinkView.swift; sourceTree = "<group>"; };
+		55B5C45E284D2D870055BE7F /* SimilarArtistsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimilarArtistsView.swift; sourceTree = "<group>"; };
+		55B5C460284D44590055BE7F /* NoDataView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoDataView.swift; sourceTree = "<group>"; };
+		55D4C08B2844B54000E5C9A6 /* MisOPlay.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MisOPlay.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		55D4C08E2844B54000E5C9A6 /* MisOPlayApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MisOPlayApp.swift; sourceTree = "<group>"; };
+		55D4C0902844B54000E5C9A6 /* CountryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryView.swift; sourceTree = "<group>"; };
+		55D4C0922844B54200E5C9A6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		55D4C0952844B54200E5C9A6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		55D4C09F28451A0800E5C9A6 /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
+		55D4C0A128451BF900E5C9A6 /* StartButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartButtonView.swift; sourceTree = "<group>"; };
+		55D4C0A32845372500E5C9A6 /* CountryRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryRowView.swift; sourceTree = "<group>"; };
+		55D4C0A528453FCB00E5C9A6 /* ArtistsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtistsView.swift; sourceTree = "<group>"; };
+		55D4C0A828453FF100E5C9A6 /* ArtistDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtistDetailsView.swift; sourceTree = "<group>"; };
+		55D4C0AA28454BD100E5C9A6 /* ArtistCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtistCardView.swift; sourceTree = "<group>"; };
+		5D585C49906F006BB9FA85CC /* Pods-MisOPlay.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MisOPlay.debug.xcconfig"; path = "Target Support Files/Pods-MisOPlay/Pods-MisOPlay.debug.xcconfig"; sourceTree = "<group>"; };
+		9AE942F03A4F7EC3A6777FF7 /* Pods_MisOPlay.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MisOPlay.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		55D4C0882844B54000E5C9A6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5553E333284E3F6600FBABB7 /* Cachy in Frameworks */,
+				631A6B2262632DFF0FF1EC42 /* Pods_MisOPlay.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4A6EC42606C0E531B5710258 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9AE942F03A4F7EC3A6777FF7 /* Pods_MisOPlay.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		555F11252847786200BDA021 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				555F11262847788300BDA021 /* GetApi.swift */,
+				555F112C2847F5E800BDA021 /* CountiesData.swift */,
+				555F112E2847F90C00BDA021 /* ArtistsData.swift */,
+				555F11312848089B00BDA021 /* ArtistDetailsData.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		55D4C0822844B54000E5C9A6 = {
+			isa = PBXGroup;
+			children = (
+				55D4C08D2844B54000E5C9A6 /* MisOPlay */,
+				55D4C08C2844B54000E5C9A6 /* Products */,
+				F48295955F1F7772C5E8269C /* Pods */,
+				4A6EC42606C0E531B5710258 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		55D4C08C2844B54000E5C9A6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				55D4C08B2844B54000E5C9A6 /* MisOPlay.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		55D4C08D2844B54000E5C9A6 /* MisOPlay */ = {
+			isa = PBXGroup;
+			children = (
+				555F1130284805C500BDA021 /* Info.plist */,
+				555F11252847786200BDA021 /* Service */,
+				55D4C09E284519B400E5C9A6 /* Models */,
+				55D4C09D284519A900E5C9A6 /* Views */,
+				55D4C09C2845198E00E5C9A6 /* App */,
+				55D4C0922844B54200E5C9A6 /* Assets.xcassets */,
+				55D4C0942844B54200E5C9A6 /* Preview Content */,
+			);
+			path = MisOPlay;
+			sourceTree = "<group>";
+		};
+		55D4C0942844B54200E5C9A6 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				55D4C0952844B54200E5C9A6 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		55D4C09C2845198E00E5C9A6 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				55D4C0902844B54000E5C9A6 /* CountryView.swift */,
+				55D4C08E2844B54000E5C9A6 /* MisOPlayApp.swift */,
+				55D4C09F28451A0800E5C9A6 /* OnboardingView.swift */,
+				55D4C0A528453FCB00E5C9A6 /* ArtistsView.swift */,
+				55D4C0A828453FF100E5C9A6 /* ArtistDetailsView.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		55D4C09D284519A900E5C9A6 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				55D4C0A128451BF900E5C9A6 /* StartButtonView.swift */,
+				55D4C0A32845372500E5C9A6 /* CountryRowView.swift */,
+				55D4C0AA28454BD100E5C9A6 /* ArtistCardView.swift */,
+				555F111528469CE700BDA021 /* ArtisDetailHeaderView.swift */,
+				555F11172846B88B00BDA021 /* GetDetailsButtonView.swift */,
+				55B5C45A2849FFC50055BE7F /* TagsView.swift */,
+				55B5C45C284CFA490055BE7F /* LinkView.swift */,
+				55B5C45E284D2D870055BE7F /* SimilarArtistsView.swift */,
+				55B5C460284D44590055BE7F /* NoDataView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		55D4C09E284519B400E5C9A6 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				555F111928476CCF00BDA021 /* ArtistDetailsModel.swift */,
+				555F1121284770CF00BDA021 /* ArtistsModel.swift */,
+				555F112A2847F43200BDA021 /* CountryModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		F48295955F1F7772C5E8269C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5D585C49906F006BB9FA85CC /* Pods-MisOPlay.debug.xcconfig */,
+				030450806D431F5727404927 /* Pods-MisOPlay.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		55D4C08A2844B54000E5C9A6 /* MisOPlay */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 55D4C0992844B54200E5C9A6 /* Build configuration list for PBXNativeTarget "MisOPlay" */;
+			buildPhases = (
+				3B75E38BEA438C9AA1D426C9 /* [CP] Check Pods Manifest.lock */,
+				55D4C0872844B54000E5C9A6 /* Sources */,
+				55D4C0882844B54000E5C9A6 /* Frameworks */,
+				55D4C0892844B54000E5C9A6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				55520E53284E4E150013211A /* PBXTargetDependency */,
+			);
+			name = MisOPlay;
+			packageProductDependencies = (
+				5553E332284E3F6600FBABB7 /* Cachy */,
+			);
+			productName = MisOPlay;
+			productReference = 55D4C08B2844B54000E5C9A6 /* MisOPlay.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		55D4C0832844B54000E5C9A6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+				TargetAttributes = {
+					55D4C08A2844B54000E5C9A6 = {
+						CreatedOnToolsVersion = 13.0;
+					};
+				};
+			};
+			buildConfigurationList = 55D4C0862844B54000E5C9A6 /* Build configuration list for PBXProject "MisOPlay" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 55D4C0822844B54000E5C9A6;
+			packageReferences = (
+				5553E331284E3F6600FBABB7 /* XCRemoteSwiftPackageReference "CachyKit" */,
+			);
+			productRefGroup = 55D4C08C2844B54000E5C9A6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				55D4C08A2844B54000E5C9A6 /* MisOPlay */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		55D4C0892844B54000E5C9A6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55D4C0962844B54200E5C9A6 /* Preview Assets.xcassets in Resources */,
+				55D4C0932844B54200E5C9A6 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3B75E38BEA438C9AA1D426C9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MisOPlay-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		55D4C0872844B54000E5C9A6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55D4C0A028451A0800E5C9A6 /* OnboardingView.swift in Sources */,
+				555F112B2847F43200BDA021 /* CountryModel.swift in Sources */,
+				555F1122284770CF00BDA021 /* ArtistsModel.swift in Sources */,
+				55B5C45D284CFA490055BE7F /* LinkView.swift in Sources */,
+				55D4C0A928453FF100E5C9A6 /* ArtistDetailsView.swift in Sources */,
+				55D4C0A228451BF900E5C9A6 /* StartButtonView.swift in Sources */,
+				555F111628469CE700BDA021 /* ArtisDetailHeaderView.swift in Sources */,
+				555F111A28476CCF00BDA021 /* ArtistDetailsModel.swift in Sources */,
+				555F11322848089B00BDA021 /* ArtistDetailsData.swift in Sources */,
+				55B5C45F284D2D870055BE7F /* SimilarArtistsView.swift in Sources */,
+				55B5C461284D445A0055BE7F /* NoDataView.swift in Sources */,
+				555F112F2847F90C00BDA021 /* ArtistsData.swift in Sources */,
+				55D4C0AB28454BD100E5C9A6 /* ArtistCardView.swift in Sources */,
+				555F112D2847F5E800BDA021 /* CountiesData.swift in Sources */,
+				55D4C0A42845372500E5C9A6 /* CountryRowView.swift in Sources */,
+				555F11182846B88B00BDA021 /* GetDetailsButtonView.swift in Sources */,
+				55D4C0A628453FCB00E5C9A6 /* ArtistsView.swift in Sources */,
+				55D4C0912844B54000E5C9A6 /* CountryView.swift in Sources */,
+				555F11272847788300BDA021 /* GetApi.swift in Sources */,
+				55D4C08F2844B54000E5C9A6 /* MisOPlayApp.swift in Sources */,
+				55B5C45B2849FFC50055BE7F /* TagsView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		55520E53284E4E150013211A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			productRef = 55520E52284E4E150013211A /* Cachy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		55D4C0972844B54200E5C9A6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Debug;
+		};
+		55D4C0982844B54200E5C9A6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		55D4C09A2844B54200E5C9A6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5D585C49906F006BB9FA85CC /* Pods-MisOPlay.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MisOPlay/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MisOPlay/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = shnikoyaka.MisOPlay;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		55D4C09B2844B54200E5C9A6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 030450806D431F5727404927 /* Pods-MisOPlay.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MisOPlay/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MisOPlay/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = shnikoyaka.MisOPlay;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		55D4C0862844B54000E5C9A6 /* Build configuration list for PBXProject "MisOPlay" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				55D4C0972844B54200E5C9A6 /* Debug */,
+				55D4C0982844B54200E5C9A6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		55D4C0992844B54200E5C9A6 /* Build configuration list for PBXNativeTarget "MisOPlay" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				55D4C09A2844B54200E5C9A6 /* Debug */,
+				55D4C09B2844B54200E5C9A6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		5553E331284E3F6600FBABB7 /* XCRemoteSwiftPackageReference "CachyKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Sadmansamee/CachyKit.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		55520E52284E4E150013211A /* Cachy */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 5553E331284E3F6600FBABB7 /* XCRemoteSwiftPackageReference "CachyKit" */;
+			productName = Cachy;
+		};
+		5553E332284E3F6600FBABB7 /* Cachy */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 5553E331284E3F6600FBABB7 /* XCRemoteSwiftPackageReference "CachyKit" */;
+			productName = Cachy;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 55D4C0832844B54000E5C9A6 /* Project object */;
+}

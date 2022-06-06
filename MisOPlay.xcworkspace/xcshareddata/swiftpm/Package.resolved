@@ -1,0 +1,16 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "Cachy",
+        "repositoryURL": "https://github.com/Sadmansamee/CachyKit.git",
+        "state": {
+          "branch": null,
+          "revision": "4fb6d8e49f15175c2877e12c9bed13509236d511",
+          "version": "1.0.14"
+        }
+      }
+    ]
+  },
+  "version": 1
+}
